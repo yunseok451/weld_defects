@@ -1,0 +1,11 @@
+train: weld_vt/data_vt/images
+val: weld_vt/data_vt/images
+test: weld_vt/data_vt/images
+
+nc: 5
+names:
+  0: normal
+  1: porosity
+  2: incomplete penetration
+  3: lack of fusion
+  4: undercut
